@@ -1,0 +1,345 @@
+teleport:
+  countdown: 10
+  messages:
+    10: "&e&lSimple&6&lHomes &8» &fTeletransportando en &9%seconds%&f..."
+    0: "&e&lSimple&6&lHomes &8» &fTe teletransportaste a la casa: &9%home_name%&f."
+  sounds:
+    10: "NOTE_PLING"
+    9: "NOTE_PLING"
+    8: "NOTE_PLING"
+    7: "NOTE_PLING"
+    6: "NOTE_PLING"
+    5: "NOTE_PLING"
+    4: "NOTE_PLING"
+    3: "NOTE_PLING"
+    2: "NOTE_PLING"
+    1: "NOTE_PLING"
+    0: "ENDERMAN_TELEPORT"
+  titles:
+    10:
+      title: "&6Teletransportando en &9%seconds%&f..."
+      subTitle: "&fDestino: &9%home_name%"
+    0:
+      title: "&6LLegaste a tu casa"
+      subTitle: "&9%home_name%"
+vault:
+  enable: false
+  setHome: 100.0 # Set Home cost
+  overwriteHome: 50.0 # Overwrite Home cost
+  deleteHome: 100.0 # Refund Amount For Delete Home
+  teleport: 100.0 # Cost of teleport to your home
+world:
+ # Disable the set home in specific worlds
+  disableSetHome:
+    enable: false
+    worlds:
+    - "world_nether"
+    - "world_the_end"
+  # Disable start teleport in current location world
+  disableTeleportFrom:
+    enable: false
+    worlds:
+    - "world_nether"
+    - "world_the_end"
+  # Disable the arrival of a teleportation on specific worlds
+  disableTeleportTo:
+    enable: false
+    worlds:
+    - "world_nether"
+    - "world_the_end"
+homes:
+  default: 2
+  vip: 5 # simple.max.homes.vip
+  staff: 10 # simple.max.homes.staff
+inventory:
+  deleteConfirm:
+    title: "Quieres eliminar tu casa?"
+    items:
+      panel:
+        material: "STAINED_GLASS_PANE"
+        data: 1
+        name: "&7"
+      information:
+        material: "BED"
+        name: "&6%name%"
+        lore:
+        - "&7"
+        - "&6Mundo &e%world%"
+        - "&6X &e%x%"
+        - "&6Y &e%y%"
+        - "&6Z &e%z%"
+        - "&6YAW  &e%yaw%"
+        - "&6PITCH &e%pitch%"
+        - "&7"
+      accept:
+        material: "WOOL"
+        data: 5
+        name: "&aAceptar"
+      cancel:
+        material: "WOOL"
+        data: 14
+        name: "&cCancelar"
+  homes:
+    rows: 3
+    title: "Casas"
+    items:
+      panel:
+        material: "STAINED_GLASS_PANE"
+        data: 1
+        name: "&7"
+      information:
+        material: "PAPER"
+        name: "&6Informatción"
+        lore:
+        - "&7"
+        - "&6Dueño: %owner%"
+        - "&6Cantidad: %amount%"
+      home:
+        material: "CHEST"
+        name: "&e%name%"
+        lore:
+        - "&7"
+        - "&6Mundo &e%world%"
+        - "&6X &e%x%"
+        - "&6Y &e%y%"
+        - "&6Z &e%z%"
+        - "&6YAW  &e%yaw%"
+        - "&6PITCH &e%pitch%"
+        - "&7"
+        - "&6Clic Izquierdo &eTeletransportarse a la casa"
+        - "&6Clic Derecho &eBorrar la casa"
+      prevPage:
+        material: "ARROW"
+        name: "&cPágina Anterior"
+      nextPage:
+        material: "ARROW"
+        name: "&cPágina Siguiente"
+      close:
+        material: "BARRIER"
+        name: "&cCerrar Menú"
+  admin:
+    title: "Administración de SimpleHomes"
+    items:
+      panel:
+        material: STAINED_GLASS_PANE
+        data: 7
+      world:
+        material: PAPER
+        name: "&3Ajustes de Mundos Desactivados"
+        lore:
+        - ""
+        - "&7Clic Izquierdo para abrir"
+      vault:
+        material: PAPER
+        name: "&3Ajustes de Vault"
+        lore:
+        - ""
+        - "&7Clic Izquierdo para abrir"
+      reload:
+        material: REDSTONE_BLOCK
+        name: "&3Reload plugin"
+        lore:
+        - ""
+        - "&7Clic Izquierdo para recargar"
+      close:
+        material: BARRIER
+        name: "&cClose"
+  vault:
+    title: "Vault Menú"
+    status:
+      enable: "&aActivado"
+      disable: "&cDesactivado"
+    items:
+      panel:
+        material: STAINED_GLASS_PANE
+        data: 7
+      status:
+        material: CHEST
+        name: "&3Implementación de Vault"
+        lore:
+        - ""
+        - "&6Estado&e: %status%"
+        - ""
+        - "&7Clic izquierdo para cambiar"
+      setHome:
+        material: PAPER
+        name: "&3Establecer casa"        
+        lore:
+        - ""
+        - "&6Dinero&e: %amount%"
+        - ""
+        - "&7Clic izquierdo para cambiar"
+      overwriteHome:
+        material: PAPER
+        name: "&3Sobrescribir Casa"
+        lore:
+        - ""
+        - "&6Dinero&e: %amount%"
+        - ""
+        - "&7Clic izquierdo para cambiar"
+      deleteHome:
+        material: PAPER
+        name: "&3Borrar casa"
+        lore:
+        - ""
+        - "&6Dinero&e: %amount%"
+        - ""
+        - "&fEsto representa un reembolso"
+        - "&fpor quitar una casa"
+        - "&fLa cantidad establecida"
+        - "&fse agregará a su saldo"
+        - ""
+        - "&7Clic izquierdo para cambiar"
+      teleport:
+        material: PAPER
+        name: "&3Teletransportarse"
+        lore:
+        - ""
+        - "&6Dinero&e: %amount%"
+        - ""
+        - "&7Clic izquierdo para cambiar"
+      close:
+        material: BARRIER
+        name: "&cCerrar"
+  world:
+    title: "Menú del mundo deshabilitado"
+    status:
+      enable: "&aActivado"
+      disable: "&cDesactivado"
+    items:
+      panel:
+        material: STAINED_GLASS_PANE
+        data: 7
+      setHome:
+        material: BED
+        name: "&3Establecer casa"
+        lore:
+        - ""
+        - "&6Habilitar&e: %status%"
+        - ""
+        - "&7Clic izquierdo para cambiar el estado"
+        - "&7Clic derecho para administrar mundos"
+      teleportFrom:
+        material: CHEST
+        name: "&3Teletransportarse desde"
+        lore:
+        - ""
+        - "&6Habilitar&e: %status%"
+        - ""
+        - "&7Clic izquierdo para cambiar el estado"
+        - "&7Clic derecho para administrar mundos"
+      teleportTo:
+        material: CHEST
+        name: "&3Teletransportarse a"
+        lore:
+        - ""
+        - "&6Habilitar&e: %status%"
+        - ""
+        - "&7Clic izquierdo para cambiar el estado"
+        - "&7Clic derecho para administrar mundos"
+      close:
+        material: BARRIER
+        name: "&cCerrar"
+        lore:
+        - ""
+        - "&7Clic para cerrar"
+   worldSetHome:
+    title: "Deshabilitado Establecer mundos"
+    rows: 1
+    status:
+      enable: "&aActivado"
+      disable: "&cDesactivado"
+    items:
+      item:
+        material: PAPER
+        name: "%world_name%"
+        lore:
+        - ""
+        - "&6Estado&e: %status%"
+      panel:
+        material: STAINED_GLASS_PANE
+        data: 7
+      information:
+        material: CHEST
+        name: "&3Información"
+        lore:
+        - ""
+        - "&fSi el mundo está activado,"
+        - "&fsignifica que las casas no pueden"
+        - "&festablecerse en ella."
+      next:
+        material: ARROW
+        name: "&aSiguiente página"
+      previous:
+        material: ARROW
+        name: "&aPagina anterior"
+      close:
+        material: BARRIER
+        name: "&cCerrar"
+   worldTeleportFrom:
+    title: "Teletransporte deshabilitado desde mundos"
+    rows: 1
+    status:
+      enable: "&aActivado"
+      disable: "&cDesactivado"
+    items:
+      item:
+        material: PAPER
+        name: "%world_name%"
+        lore:
+        - ""
+        - "&6Estado&e: %status%"
+      panel:
+        material: STAINED_GLASS_PANE
+        data: 7
+      information:
+        material: CHEST
+        name: "&3Información"
+        lore:
+        - ""
+        - "&fSi el mundo está activado,"
+        - "&fsignifica que una teletransportacion"
+        - "&fno se puede iniciar"
+        - "&fpor teletransportación desde casa."
+      next:
+        material: ARROW
+        name: "&aSiguiente página"
+      previous:
+        material: ARROW
+        name: "&aPagina anterior"
+      close:
+        material: BARRIER
+        name: "&cCerrar"
+   worldTeleportTo:
+    title: "Teletransporte deshabilitado a mundos"
+    rows: 1
+    status:
+      enable: "&aActivado"
+      disable: "&cDesactivado"
+    items:
+      item:
+        material: PAPER
+        name: "%world_name%"
+        lore:
+        - ""
+        - "&6Estado&e: %status%"
+      panel:
+        material: STAINED_GLASS_PANE
+        data: 7
+      information:
+        material: CHEST
+        name: "&3Información"
+        lore:
+        - ""
+        - "&fSi el mundo está activado,"
+        - "&fsignifica que no se puede alcanzar"
+        - "&fpor teletransportación desde casa."
+      next:
+        material: ARROW
+        name: "&aSiguiente página"
+      previous:
+        material: ARROW
+        name: "&aPagina anterior"
+      close:
+        material: BARRIER
+        name: "&cCerrar"

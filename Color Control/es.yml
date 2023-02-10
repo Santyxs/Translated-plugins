@@ -1,0 +1,182 @@
+
+# Translation file author
+author: Santos
+
+chat:
+  lobby: "&6Lobby &8| &f%player% &7→ &f%message%"
+  waiting: "&6%arena% &8| &f%player% &7→ &f%message%"
+  ingame-team: "&6Equipo &8| &f%team% %player% &7→ &f%message%"
+  ingame-all: "&6Glob &8| &f%team% %player% &7→ &6%message%"
+  spectate: "&6Espectador &8| &f%player% &7→ &f%message%"
+
+general:
+
+  arena-limit-reached: "Lo sentimos, pero se alcanzó el límite para la arena &e%arena%"
+  global-limit-reached: "Lo sentimos, pero se alcanzó el límite de arena global"
+
+  location-changed: "Ubicación del lobby establecida en &a%location%"
+  for-join-use: "&c&o No estás en &9Color&cControl&o, usa el comando &e/%cmd% join &c&o para unirte"
+  already-playing: "Ya estás jugando, usa el comando &e/%cmd% leave&f para dejar el juego"
+  
+  back-to-lobby: "&7[ &aVolver al lobby &7]"
+  lobby:
+    title: "&4&kII &e&lNTD STUDIOS &4&kII"
+    subtitle: "&cBienvenido a &9Color&cControl&f!"
+    join: 10
+    stay: 30
+    fade: 10
+  
+  join-game: "&7[ &eUnete al juego &7]"
+  leave-color: "&7[ &cSalir de ControlControl &7]"
+  
+scoreboard:
+  title: "&9&lCOLOR&c&lCONTROL"
+  lobby:
+  - ""
+  - " &6Bienvenido &fa ColorControl"
+  - " &fpor &e&lNTD Studios&f!"
+  - "   &7(DenBeKKer, danirod12)"
+  - ""
+  - "       &eserver.com"
+  waiting:
+  - ""
+  - "&7%date%     &8%server%"
+  - ""
+  - "&f%status%"
+  - "&fJugadores: &b%players%&f/&b%max%"
+  - "        &7(Se necesita %need% jugadores)"
+  - ""
+  - "&fMapa: &e%map%"
+  - ""
+  - "&fEquipo seleccionado: &e%team%"
+  - ""
+  - "   &eserver.com"
+  ingame:
+  - ""
+  - "&7%date%     &8%server%"
+  - ""
+  - "&fJugadores que quedan: &e%players%"
+  - "&fEspectadores: &e%spectators%"
+  - "&fEquipos:"
+  - " &c&lROJO &f- &6%red_lives% %red_you%"
+  - " &9&lAZUL &f- &6%blue_lives% %blue_you%"
+  - ""
+  - "&fMapa: &e%map%"
+  - ""
+  - "&fMuertos: &e%kills%"
+  - "&fVivos: &e%lives%"
+  - ""
+  - "   &eserver.com"
+  
+  status:
+    waiting: "&fEsperando jugadores..."
+    starting: "&fEmpieza en &e%seconds% &fseconds"
+  you: "&7(Tú)"
+  
+game:
+  
+  arena-not-found: "Arena no encontrada"
+  
+  joined-arena: "Te has unido a &e%server% &7(%arena%)"
+  joined-arena-other: "&e%player% &fse ha unido al juego (&b%players%&f/&b%max%&f)"
+  left-arena-other: "&e%player% &fha abandonado el juego (&b%players%&f/&b%max%&f)"
+  left-game-other: "&e%player% &fha abandonado el juego"
+  select-team-title: "Selecciona un equipo"
+  queue-added: "Serás agregado a la arena en unos segundos"
+
+  not-enough-players: "No hay suficientes jugadores para comenzar el juego. :("
+
+  none: "ninguno"
+  team: "equipo"
+  blue: "azul"
+  red: "rojo"
+
+  selector:
+    red_team: "Equipo rojo"
+    blue_team: "Equipo azul"
+    header:
+    - ""
+    - "&fMiembros del equipo:"
+    member: " &8- &f%player%"
+    emptylist : "&cLa lista de jugadores está vacía."
+    footer:
+    - ""
+    - "&7(&eClick para seleccionart&7)"
+  selected-team: "&eEquipo seleccionado &f%team%"
+  selected-team-other: "&e%player%&f ha seleccionado el equipo %team%"
+  team-already-selected: "Ya eres miembro de %team% &fteam"
+  team-is-full: "El equipo %team%&f está lleno"
+  
+  need-more-players: "&cTemporizador detenido, se necesitan más jugadores"
+  
+  map-edge-reached: "Borde del mapa alcanzado"
+  cannot-break-base: "No puedes romper la base del equipo."
+  aim-taken: "&7Objetivo tomado! la vida de &c%player% &7 es &c%health%"
+  extra-lives: "Tienes &e%extra%&f vidas extra &7(&8%lives%&7 vidas)"
+  
+  arena-closed: "Arena cerrada. Enviándote al lobby..."
+  starts-in-60-30: "El juego comenzará en &e%seconds% &fsegundos"
+  starts-in-10: "El juego comenzará en &c%seconds% &fsegundos"
+  
+  description:
+  - ""
+  - "&eMinijuego implementado como complemento de servidor por&e&l NTD Studios"
+  - ""
+  - "&c&m---------------&c[ &9&lCOLOR&c&lCONTROL &9]&m---------------"
+  - " &8- &fHola, &e%player%&f! Bienvenido a &9Color&cControl!"
+  - " &8- &f El objetivo del juego es matar a los oponentes."
+  - "   &fTienes %lives% vidas. Tu equipo es el %team%"
+  - " &8- &fPuedes obtener recursos mediante generadores de base de madera y piedra."
+  - "   &fSimplemente quédate quieto en la esquina de la base derecha o izquierda en el cubo."
+  - " &8- &fDebes agarrar cubos cavando la capa blanca superior."
+  - "   &fEl cubo agarrado se convierte en el generador de tu equipo."
+  - " &8- &fReclamar, fabricar, agarrar, luchar, &ebuena suerte&f!"
+  - "&c&m---------------&c[ &9&lCOLOR&c&lCONTROL &9]&m---------------"
+  
+  winners:
+  - ""
+  - "&eMinijuego implementado como complemento de servidor por&e&l NTD Studios"
+  - ""
+  - "&c&m---------------&c[ &9&lCOLOR&c&lCONTROL &9]&m---------------"
+  - " &8- &fGanadores - %team%&7 (%players%)"
+  - ""
+  - " &8- &fTop muertes:"
+  - "{topkiller}"
+  - "{topkiller}"
+  - "{topkiller}"
+  - "&c&m---------------&c[ &9&lCOLOR&c&lCONTROL &9]&m---------------"
+
+  no-players: "Sin jugadores"
+  connected-shortly: "Se le conectará al lobby en breve"
+  top-killer: " &8  &a#%number% &f%player% &f- &6%kills%"
+  
+  cannot-damage: "No puedes dañar a &e%player%&f, porque está en tu equipo"
+  cannot-damage-spectator: "&cNo puedes dañar a &e%player%&c, porque estás en espectador"
+  player-died-self: "Jugador &e%player% &fha muerto"
+  player-died-by-player: "Jugador &e%player% &fasesinado por &e%damager%"
+  final-kill: "&b[MUERTE FINAL]"
+  
+setup:
+  create-playing: "No puedes crear una arena mientras juegas"
+  incorrect-name: "Utiliza letras y números en inglés para el nombre del sistema de arena."
+  already-exists: "Arena %arena% ya existe, elije otro nombre"
+  not-exists: "Arena %arena% no existe. Créala usando &e/%cmd% create"
+  leave-session: "Sal de la sesión de configuración actual para realizar esta acción, usa &e/%cmd% leave"
+
+commands-help: "Lista de comandos disponibles:"
+command:
+  arenas: "Lista de arenas"
+  createarena: "Crear nueva arena"
+  currentarenadebug: "Depurar arena actual"
+  editarena: "Editar arena"
+  exit: "Salir del juego/arena de ColorControl"
+  expand: "Expandir el área seleccionada"
+  forcestart: "Campo de inicio forzado"
+  join: "Únete a la arena"
+  pos: "Establecer posición de selección"
+  sel: "Borrar selección"
+  setlobbylocation: "Establecer la ubicación del lobby"
+  start: "Iniciar el juego actual"
+  spec: "Juego de espectador"
+  reload: "Recargar plugin"
+  buildsession: "Unirse/Abandonar sesión de compilación"

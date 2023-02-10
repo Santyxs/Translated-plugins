@@ -1,0 +1,682 @@
+#####################################################################
+#This is the shop configuration of MyPet               #
+#You can find more info on the wiki:                 #
+#https://wiki.mypet-plugin.de/setup/configurations/pet-shops.yml  #
+#####################################################################
+Shops:
+  all:
+    #When Default is set to true /petshop will open the sop instead of the shop selection GUI
+    #Default: true
+    Name: "Todas las mascotas"
+    Balance:
+      Type: Private
+    Position: 0
+    Icon:
+      Material: "chest"
+      Glowing: false
+    Pets:
+      #a_unique_name:
+      #Position: 0
+      #Name: "Ingame Name"
+      #Description:
+      #- <green>This is a description!
+      #PetType: PetTypeName
+      #EXP: 0
+      #Price: 100
+      #Skilltree: "skilltreename"
+      #Options:
+      #- baby
+      #- saddle
+      axolotl:
+        Name: Ajolote
+        Description:
+          - <green>Es un Ajolote!
+        PetType: Axolotl
+        EXP: 0
+        Price: 100
+      allay:
+        Name: Allay
+        Description:
+          - <green>Va ha estar contigo siempre!
+        PetType: Allay
+        EXP: 0
+        Price: 100
+      bat:
+        Name: Murciélago
+        Description:
+          - <green>Batman?!
+        PetType: Bat
+        EXP: 0
+        Price: 100
+      blaze:
+        Name: Blaze
+        Description:
+          - <green>Cómo quema!
+        PetType: Blaze
+        EXP: 0
+        Price: 100
+      cavespider:
+        Name: Araña de cueva
+        Description:
+          - <green>Parece que no envenena!
+        PetType: CaveSpider
+        EXP: 0
+        Price: 100
+      chicken:
+        Name: Pollo
+        Description:
+          - <green>Puede atacar!
+        PetType: Chicken
+        EXP: 0
+        Price: 100
+      cow:
+        Name: Vaca
+        Description:
+          - <green>Muuuu!
+        PetType: Cow
+        EXP: 0
+        Price: 100
+      creeper:
+        Name: Creeper
+        Description:
+          - <green>No explota!
+        PetType: Creeper
+        EXP: 0
+        Price: 100
+      donkey:
+        Name: Burro
+        Description:
+          - <green>Es muy listo!
+        PetType: Donkey
+        EXP: 0
+        Price: 100
+      elder_guardian:
+        Name: Elder Guardian
+        Description:
+          - <green>Vive fuera del agua!
+        PetType: ElderGuardian
+        EXP: 0
+        Price: 100
+      enderman:
+        Name: Enderman
+        Description:
+          - <green>No se teletransporta!
+        PetType: Enderman
+        EXP: 0
+        Price: 100
+      endermite:
+        Name: Endermite
+        Description:
+          - <green>Es muy pequeño!
+        PetType: Endermite
+        EXP: 0
+        Price: 100
+      evoker:
+        Name: Evocador
+        Description:
+          - <green>No invoca nada!
+        PetType: Evoker
+        EXP: 0
+        Price: 100
+      frog:
+        Name: Rana
+        Description:
+          - <green>Quiere luciernagas!
+        PetType: Frog
+        EXP: 0
+        Price: 100
+      goat:
+        Name: Cabra
+        Description:
+          - <green>Es G.O.A.T!
+        PetType: Goat
+        EXP: 0
+        Price: 100
+      guardian:
+        Name: Guardian
+        Description:
+          - <green>Vive fuera del agua!
+        PetType: Guardian
+        EXP: 0
+        Price: 100
+      hoglin:
+        Name: Hoglin
+        Description:
+          - <green>El cerdo del nether!
+        PetType: Hoglin
+        EXP: 0
+        Price: 100
+      horse:
+        Name: Caballo
+        Description:
+          - <green>Corre mucho!
+        PetType: Horse
+        EXP: 0
+        Price: 100
+      iron_golem:
+        Name: Golem de hierro
+        Description:
+          - <green>Tiene una flor para ti!
+        PetType: IronGolem
+        EXP: 0
+        Price: 100
+      illusioner:
+        Name: Ilusionista
+        Description:
+          - <green>Que ilusión!
+        PetType: Illusioner
+        EXP: 0
+        Price: 100
+      llama:
+        Name: Llama
+        Description:
+          - <green>No escupe!
+        PetType: Llama
+        EXP: 0
+        Price: 100
+      magmacube:
+        Name: Cubo de magma
+        Description:
+          - <green>No se divide al morir!
+        PetType: MagmaCube
+        EXP: 0
+        Price: 100
+        Options:
+          - size:2
+      mooshroom:
+        Name: Vaca champiñón
+        Description:
+          - <green>Muuuu...?!
+        PetType: Mooshroom
+        EXP: 0
+        Price: 100
+      mule:
+        Name: Mula
+        Description:
+          - <green>Se parece a un burro!
+        PetType: Mule
+        EXP: 0
+        Price: 100
+      ocelot:
+        Name: Ocelote
+        Description:
+          - <green>Parece un gato!
+        PetType: Ocelot
+        EXP: 0
+        Price: 100
+      parrot:
+        Name: Loro
+        Description:
+          - <green>Repite lo que dices!
+        PetType: Parrot
+        EXP: 0
+        Price: 100
+      pig:
+        Name: Cerdo
+        Description:
+          - <green>Oing oing!
+        PetType: Pig
+        EXP: 0
+        Price: 100
+      piglin:
+        Name: Piglin
+        Description:
+          - <green>Le gusta mucho el oro!
+        PetType: Piglin
+        EXP: 0
+        Price: 100
+      pigzombie:
+        Name: Piglin zombie
+        Description:
+          - <green>Se parece a un Piglin!
+        PetType: PigZombie
+        EXP: 0
+        Price: 100
+      polarbear:
+        Name: Oso polar
+        Description:
+          - <green>Le gusta mucho la nieve!
+        PetType: PolarBear
+        EXP: 0
+        Price: 100
+      rabbit:
+        Name: Conejo
+        Description:
+          - <green>Salta mucho!
+        PetType: Rabbit
+        EXP: 0
+        Price: 100
+      sheep:
+        Name: Oveja
+        Description:
+          - <green>Beeee!
+        PetType: Sheep
+        EXP: 0
+        Price: 100
+      silverfish:
+        Name: Lepisma
+        Description:
+          - <green>Que pequeño es!
+        PetType: Silverfish
+        EXP: 0
+        Price: 100
+      skeleton:
+        Name: Esqueleto
+        Description:
+          - <green>No dispara flechas!
+        PetType: Skeleton
+        EXP: 0
+        Price: 100
+      skeleton_horse:
+        Name: Caballo esqueleto
+        Description:
+          - <green>Cuidado con los lobos!
+        PetType: SkeletonHorse
+        EXP: 0
+        Price: 100
+      slime:
+        Name: Slime
+        Description:
+          - <green>No se divide al morir!
+        PetType: Slime
+        EXP: 0
+        Price: 100
+        Options:
+          - size:2
+      snowman:
+        Name: Gólem de hierro
+        Description:
+          - <green>Las tijeras no funcionan!
+        PetType: Snowman
+        EXP: 0
+        Price: 100
+      spider:
+        Name: Araña
+        Description:
+          - <green>Ataca de día!
+        PetType: Spider
+        EXP: 0
+        Price: 100
+      squid:
+        Name: Calamar
+        Description:
+          - <green>Vive fuera del agua!
+        PetType: Squid
+        EXP: 0
+        Price: 100
+      glow_squid:
+        Name: Calamar brillante
+        Description:
+          - <green>Cómo brilla!
+        PetType: GlowSquid
+        EXP: 0
+        Price: 100
+      stray:
+        Name: Esqueleto errante
+        Description:
+          - <green>No dispara flechas!
+        PetType: Stray
+        EXP: 0
+        Price: 100
+      strider:
+        Name: Lavagante
+        Description:
+          - <green>Vive fuera de la lava!
+        PetType: Strider
+        EXP: 0
+        Price: 100
+      tadpole:
+        Name: Renacuajo
+        Description:
+          - <green>Es diminuto!
+        PetType: Tadpole
+        EXP: 0
+        Price: 100
+      witch:
+        Name: Bruja
+        Description:
+          - <green>No lanza pociones!
+        PetType: Witch
+        EXP: 0
+        Price: 100
+      wither:
+        Name: Wither
+        Description:
+          - <green>No explota nada!
+        PetType: Wither
+        EXP: 0
+        Price: 100
+      wither_skeleton:
+        Name: Esqueleto del wither
+        Description:
+          - <green>No le gusta los piglins!
+        PetType: WitherSkeleton
+        EXP: 0
+        Price: 100
+      wolf:
+        Name: Lobo
+        Description:
+          - <green>Es tan leal como un perro!
+        PetType: Wolf
+        EXP: 0
+        Price: 100
+        Options:
+          - tamed
+      vex:
+        Name: Vex
+        Description:
+          - <green>Es un ángel maligno o un demonio?!
+        PetType: Vex
+        EXP: 0
+        Price: 100
+      villager:
+        Name: Aldeano
+        Description:
+          - <green>No comercia nada!
+        PetType: Villager
+        EXP: 0
+        Price: 100
+      vindicator:
+        Name: Vindicador
+        Description:
+          - <green>Es muy fuerte!
+        PetType: Vindicator
+        EXP: 0
+        Price: 100
+      zoglin:
+        Name: Zoglin
+        Description:
+          - <green>Es un hoglin esqueleto!
+        PetType: Zoglin
+        EXP: 0
+        Price: 100
+      zombie:
+        Name: Zombi
+        Description:
+          - <green>No te va ha atacar!
+        PetType: Zombie
+        EXP: 0
+        Price: 100
+      zombie_horse:
+        Name: Caballo zombie
+        Description:
+          - <green>Se parece a los caballos esqueleto!
+        PetType: ZombieHorse
+        EXP: 0
+        Price: 100
+      zombie_villager:
+        Name: Aldeano zombi
+        Description:
+          - <green>No se cura con manzanas de oro!
+        PetType: ZombieVillager
+        EXP: 0
+        Price: 100
+      zombified_piglin:
+        Name: Piglin zombi
+        Description:
+          - <green>Se parece a un Piglin!
+        PetType: ZombifiedPiglin
+        EXP: 0
+        Price: 100
+  #enderdragon:
+  #Name: EnderDragon
+  #Description:
+  #- <green>It's an EnderDragon!
+  #PetType: EnderDragon
+  #EXP: 0
+  #Price: 100
+  #ghast:
+  #Name: Ghast
+  #Description:
+  #- <green>It's a Ghast!
+  #PetType: Ghast
+  #EXP: 0
+  #Price: 100
+  #giant:
+  #Name: Giant
+  #Description:
+  #- <green>It's a Giant!
+  #PetType: Giant
+  #EXP: 0
+  #Price: 100
+  babies:
+    Name: "Tienda de bebés"
+    Balance:
+      Type: Private
+    Position: 1
+    Pets:
+      baby_axolotl:
+        Name: "Ajolote"
+        Description:
+          - <green>Vive fuera del agual!
+        PetType: Axolotl
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_chicken:
+        Name: "Pollito"
+        Description:
+          - <green>Puede atacar!
+        PetType: Chicken
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_cow:
+        Name: "Vaquita"
+        Description:
+          - <green>Muuuu!
+        PetType: Cow
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_donkey:
+        Name: Burrito
+        Description:
+          - <green>Es muy listo!
+        PetType: Donkey
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_goat:
+        Name: "Cabrita"
+        Description:
+          - <green>Es G.O.A.T!
+        PetType: Goat
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_hoglin:
+        Name: "Hoglin"
+        Description:
+          - <green>El cerdito del nether!
+        PetType: Hoglin
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_llama:
+        Name: Llamita
+        Description:
+          - <green>No escupe!
+        PetType: Llama
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_mooshroom:
+        Name: "Vaquita champiñón"
+        Description:
+          - <green>Muuuu...?!
+        PetType: Mooshroom
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_mule:
+        Name: Mulita
+        Description:
+          - <green>Se parece a un burrito!
+        PetType: Mule
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_ocelot:
+        Name: "Ocelote"
+        Description:
+          - <green>Parece un gato!
+        PetType: Ocelot
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_pig:
+        Name: "Cerdito"
+        Description:
+          - <green>Oing oing!
+        PetType: Pig
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_piglin:
+        Name: "Piglin"
+        Description:
+          - <green>Le gusta mucho el oro!
+        PetType: Piglin
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_pig_zombie:
+        Name: "Piglin zombie"
+        Description:
+          - <green>Se parece a un Piglin!
+        PetType: PigZombie
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_polar_bear:
+        Name: "Osito polar"
+        Description:
+          - <green>Le gusta mucho la nieve!
+        PetType: PolarBear
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_rabbit:
+        Name: "Conejito"
+        Description:
+          - <green>Salta mucho!
+        PetType: Rabbit
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_sheep:
+        Name: "Ovejita"
+        Description:
+          - <green>Beeee!
+        PetType: Sheep
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_skeleton_horse:
+        Name: Caballito esqueleto
+        Description:
+          - <green>Cuidado con los lobos!
+        PetType: SkeletonHorse
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_strider:
+        Name: Lavagante
+        Description:
+          - <green>Vive fuera de la lava!
+        PetType: Strider
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_villager:
+        Name: "Aldeanito"
+        Description:
+          - <green>Tiene que aprender a comerciar!
+        PetType: Villager
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_wither:
+        Name: "Wither"
+        Description:
+          - <green>No explota nada!
+        PetType: Wither
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_wolf:
+        Name: "Lobito"
+        Description:
+          - <green>Es tan leal como un perrito!
+        PetType: Wolf
+        EXP: 0
+        Price: 200
+        Options:
+          - tamed
+          - baby
+      baby_zombie:
+        Name: "Zombi"
+        Description:
+          - <green>No te va ha atacar!
+        PetType: Zombie
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_zoglin:
+        Name: "Zoglin"
+        Description:
+          - <green>Es un hoglin esqueletito!
+        PetType: Zoglin
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_zombie_horse:
+        Name: Caballito zombie
+        Description:
+          - <green>Se parece a los caballitos esqueleto!
+        PetType: ZombieHorse
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_zombie_villager:
+        Name: Aldeanito zombi
+        Description:
+          - <green>No se cura con manzanas doradas ni pociones!
+        PetType: ZombieVillager
+        EXP: 0
+        Price: 200
+        Options:
+          - baby
+      baby_zombified_piglin:
+        Name: Piglin zombi
+        Description:
+          - <green>Se parece a un Piglin!
+        PetType: ZombifiedPiglin
+        EXP: 0
+        Price: 200
+        Options:
+          - baby

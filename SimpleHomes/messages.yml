@@ -1,0 +1,73 @@
+prefix: "&e&lSimple&6&lHomes &8»"
+setHome:
+  isConsole: "%prefix% &fEste comando no se puede utilizar desde la consola."
+  noPermission: "%prefix% &fNo tienes permitido ejecutar este comando."
+  emptyName: "%prefix% &fEl nombre del hogar se encuentra vacío."
+  maxHomesReached: "%prefix% &fAlcanzaste el máximo de hogares permitidas."
+  set: "%prefix% &fHaz establecido un nuevo hogar llamado &9%home%&f con un costo de &9$%cost%&f."
+  overwritten: "%prefix% &fTu hogar &9%home%&f a cambiado de posición con un costo de &9$%cost%&f."
+  insufficientSetMoney: "%prefix% &fNo tienes dinero suficiente para establecer un nuevo hogar, necesitas: &9$%cost%&f."
+  insufficientOverwrittenMoney: "%prefix% &fNo tienes dinero suficiente para cambiar de posición tu hogar, necesitas: &9$%cost%&f."
+  disabledWorld: "%prefix% &fEstablecer hogares en el mundo &9%world_name%&f esta desactivado."
+deleteHome:
+  isConsole: "%prefix% &fEste comando no se puede utilizar desde la consola."
+  noPermission: "%prefix% &fNo tienes permitido ejecutar este comando."
+  emptyName: "%prefix% &fEl nombre del hogar se encuentra vacío."
+  invalidHome: "%prefix% &fEl nombre &9%home%&f no existe o no es válido."
+  delete: "%prefix% &fEl hogar &9%home%&f fue eliminado y se devolvieron &9$%cost%&f en tu cuenta."
+  deleteOther: "%prefix% &fEliminaste el hogar &9%home%&f del jugador &9%player%&f."
+home:
+  isConsole: "%prefix% &fEste comando no se puede utilizar desde la consola."
+  noPermission: "%prefix% &fNo tienes permitido ejecutar este comando."
+  emptyName: "%prefix% &fEl nombre del hogar se encuentra vacío."
+  invalidHome: "%prefix% &fEl nombre &9%home%&f no existe o no es válido."
+  invalidWorld: "%prefix% &fEl mundo &9%world% &fno existe o no es válido. &cCONTACTE A UN ADMINISTRADOR"
+  cancelByMovement: "%prefix% &fLa teletransportación se cancelo por que te moviste del bloque."
+  alreadyInTeleporting: "%prefix% &fYa te encuentras teletransportandote."
+  disabledWorldFrom: "%prefix% &fIniciar una teletransportación a tu hogar desde el mundo &9%world_name%&f esta desactivado."
+  disabledWorldTo: "%prefix% &fLlegar mediante teletransportación a tu hogar en el mundo &9%world_name%&f esta desactivado."
+  insufficientMoney: "%prefix% &fDinero insuficiente para teletransportarte a tu hogar. Necesitas &9$%amount%&f."
+homes:
+  isConsole: "%prefix% &fEste comando no se puede utilizar desde la consola."
+  noPermission: "%prefix% &fNo tienes permitido ejecutar este comando."
+  noPermissionOther: "%prefix% &fNo tienes permitido ejecutar este comando."
+  invalidName: "%prefix% &fEl jugador &9%player%&f no existe."
+  emptyHomes: '%prefix% &fNo tienes hogares establecidos.'
+  emptyHomesOther: '%prefix% &fEl jugador &9%player%&f no tiene hogares establecidos.'
+admin:
+  noPermission: "%prefix% &fNo tienes permitido ejecutar este comando."
+  emptyOption: "%prefix% &fLa opción está vacía. Escribe &9/SimpleHomes help&f."
+  invalidOption: "%prefix% &fLa opción &9%option%&f no es válida. Escribe &9/SimpleHomes help&f."
+  help:
+    - "%prefix% Comandos de Administrador"
+    - " &6/SimpleHomes &ereload &8- &fRecarga el complemento."
+    - " &6/SimpleHomes &eversion &8- &fMira cual versión se encuentra en ejecución."
+  reloaded: "%prefix% &fEl complemento &9%plugin%&f se recargo correctamente."
+  version: "%prefix% &fVersión: &9%version%"
+  vault:
+    setHome:
+      enterAmount:
+      - '%prefix% &fIngrese la nueva cantidad en el chat.'
+      - '&fPara cancelar precionar SHIFT'
+      invalidAmount: '%prefix% &fLa cantidad &9%amount%&f no es válida.'
+    overwriteHome:
+      enterAmount:
+      - '%prefix% &fIngrese la nueva cantidad en el chat.'
+      - '&fPara cancelar precionar SHIFT'
+      invalidAmount: '%prefix% &fLa cantidad &9%amount%&f no es válida.'
+    deleteHome:
+      enterAmount:
+      - '%prefix% &fIngrese la nueva cantidad en el chat.'
+      - '&fPara cancelar precionar SHIFT'
+      invalidAmount: '%prefix% &fLa cantidad &9%amount%&f no es válida.'
+    teleport:
+      enterAmount:
+      - '%prefix% &fIngrese la nueva cantidad en el chat.'
+      - '&fPara cancelar precionar SHIFT'
+      invalidAmount: '%prefix% &fLa cantidad &9%amount%&f no es válida.'
+migrateHomes:
+  isConsole: "%prefix% &fEste comando no se puede utilizar desde la consola."
+  noPermission: "%prefix% &fNo tienes permitido ejecutar este comando."
+  emptyName: "%prefix% &fEl nombre del complemento se encuentra vacío."
+  invalidPlugin: "%prefix% &fEl complemento &9%plugin%&f no es válido o no existe."
+  migrateComplete: "%prefix% &fTodos los hogares de &9%plugin%&f fueron migrados."
